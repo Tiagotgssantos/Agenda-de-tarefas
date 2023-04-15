@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,200;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: rgb(29, 29, 29);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 35px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+#input-tarefa{
+    height: 40px;
+    padding: 0 5px;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    margin: 0 5px;
+    background: rgb(40, 39, 39);
+    color: #fff;
+    outline: chartreuse;
+    
+}
+#btn-adicionar{
+    background:radial-gradient(closest-corner at 35% 40%, rgba(236, 234, 234, 0.9),transparent), green;
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    width: 90%;
+}
+
+li {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    background: rgb(40, 39, 39);
+    padding: 0 5px;
+    height: 50px;
+    border-radius: 10px;
+    color: #fff;
+    overflow: hidden;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+}
+
+.btn-lixeira{
+    position: absolute;
+    border-radius: 50%;
+    font-size: 15px;
+    background:radial-gradient(closest-corner at 35% 40%, rgba(236, 234, 234, 0.9),transparent), red;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    left: 85%;
+    top: 10%;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 31em){
+    
+    ul{
+        width: 490px;
+    }
+    .btn-lixeira{
+        left: 90%;
+    }
+
+    #input-tarefa{
+        width: 455px;
+    }
+}
