@@ -20,7 +20,7 @@ h1 {
 }
 
 #input-tarefa{
-    height: 40px;
+    height: 50px;
     padding: 0 5px;
     width: 80%;
     border-radius: 10px;
@@ -53,6 +53,7 @@ ul {
     margin-right: auto;
     margin-top: 35px;
     width: 90%;
+    left: -50px;
 }
 
 li {
@@ -62,13 +63,14 @@ li {
     align-items: center;
     margin: 15px 0;
     background: rgb(40, 39, 39);
-    padding: 0 5px;
-    height: 50px;
+    padding: 0 40px 0 10px;
+    height: 67px;
     border-radius: 10px;
-    color: #fff;
+    color: #05fb0d;
     overflow: hidden;
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
+   
 }
 
 .btn-lixeira{
@@ -77,11 +79,31 @@ li {
     font-size: 15px;
     background:radial-gradient(closest-corner at 35% 40%, rgba(236, 234, 234, 0.9),transparent), red;
     border: none;
-    color: #fff;
+    color: #ffffff;
     padding: 10px;
-    left: 85%;
-    top: 10%;
     cursor: pointer;
+    left:90%;
+    
+}
+
+@media screen and (min-width: 17em){
+    .btn-lixeira{
+        position: absolute;
+        left:85%;
+    }
+    li{
+        padding: 0 50px 0 10px;
+    }
+}
+
+@media screen and (min-width: 25em){
+    .btn-lixeira{
+        position: absolute;
+        left:90%;
+    }
+    li{
+        padding: 0 50px 0 10px;
+    }
 }
 
 @media screen and (min-width: 31em){
@@ -90,7 +112,7 @@ li {
         width: 490px;
     }
     .btn-lixeira{
-        left: 90%;
+        left:90%;
     }
 
     #input-tarefa{
