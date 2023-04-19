@@ -26,9 +26,9 @@ h1 {
     border-radius: 10px;
     border: none;
     margin: 0 5px;
-    background: rgb(40, 39, 39);
+    background: rgb(53, 52, 52);
     color: #fff;
-    outline: chartreuse;
+    outline:none ;
     
 }
 #btn-adicionar{
@@ -62,11 +62,11 @@ li {
     justify-content: space-between;
     align-items: center;
     margin: 15px 0;
-    background: rgb(40, 39, 39);
+    background: rgb(53, 52, 52);
     padding: 0 40px 0 10px;
     height: 67px;
     border-radius: 10px;
-    color: #05fb0d;
+    color: #fff;
     overflow: hidden;
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
